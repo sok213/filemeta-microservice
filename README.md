@@ -1,9 +1,7 @@
 # File MetaData Microservice
 
-----
 Upload a file and receive a JSON response that includes the file name and size in bytes.
 
-----
 ## How to run locally
 
     npm install
