@@ -9,4 +9,4 @@ Upload a file and receive a JSON response that includes the file name and size i
 
 Navigate to [http://localhost:3000/](http://localhost:3000/)
 
-View live app at [filemetasunset.herokuapp.com](filemetasunset.herokuapp.com)
+View live app at [https://filemetasunset.herokuapp.com/](https://filemetasunset.herokuapp.com/)
