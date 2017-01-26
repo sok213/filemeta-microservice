@@ -1,0 +1,68 @@
+body, html {
+  min-width: 441px;
+  text-align: center;;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+  padding-bottom: 10px;
+  color: rgb(64, 107, 145);
+}
+
+h2 {
+  color: rgb(125, 152, 176);
+  width: 37%;
+  border-bottom: thin dotted rgb(236, 234, 234);
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.title-heading { width: 50%; }
+
+/* Bottom border gradient line for title header */
+.yy {
+  margin-top: -20px;
+  width: 60%;
+  height: 2px;
+  border-left: 20px solid #3ACFD5;
+  border-right: 20px solid #3a4ed5;
+  background-image: -webkit-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), 
+    -webkit-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+  background-image: -moz-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), 
+    -moz-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+  background-image: -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), 
+    -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+  background-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%), 
+    linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+}
+
+/* Button styles */
+input { display: none; }
+
+button {
+  color: white;
+  width: 100px;
+  height: 28px;
+  border: none;
+  border-radius: 2px;
+  margin: 0px;
+  outline: none;
+  transition: 0.1s;
+  opacity: 0.9;
+  border: thin;
+}
+
+.upload-btn:hover { 
+  border: thin solid rgb(63, 156, 51);
+  opacity: 1;
+}
+
+.upload-btn {
+  background-color: rgb(72, 181, 79); 
+}
